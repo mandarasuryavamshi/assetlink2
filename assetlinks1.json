@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.google.samples.app",
+    "sha256_cert_fingerprints":
+    ["8F:5F:16:A8:79:11:88:50:CC:D9:EF:97:88:0A:3E:6B:27:FA:6A:CE:30:A8:1F:E5:46:E8:81:9E:E8:88:59:FD"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://appinstant1.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.google.samples.app",
+    "sha256_cert_fingerprints":
+    ["8F:5F:16:A8:79:11:88:50:CC:D9:EF:97:88:0A:3E:6B:27:FA:6A:CE:30:A8:1F:E5:46:E8:81:9E:E8:88:59:FD"]
+  }
+}]
